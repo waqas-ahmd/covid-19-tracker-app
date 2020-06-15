@@ -11,6 +11,7 @@ function App() {
           <h2>COVID-19 LIVE STATISTICS</h2>
         </div>
         <SubApp/>
+        Developed by <a href="https://www.facebook.com/waqqasahmad.official">WAQAS</a>
       </GlobalProvider>
     </div>
   );
