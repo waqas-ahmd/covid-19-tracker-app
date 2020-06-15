@@ -1,0 +1,41 @@
+.root {
+    
+    max-width: 660pt;
+    margin: auto !important;
+    text-align: center;
+}
+.card{
+    vertical-align: middle;
+    background-color: rgb(59, 59, 59)!important;
+    width: 137pt;
+    margin: 0;
+}
+
+.text{
+    font-size: 15pt !important;
+    font-weight: bold;
+}
+
+.text[title='Total Cases']{
+    color: gold;
+}
+
+.card[title='Total Cases']{
+    border-bottom: 10px solid gold;
+}
+
+.text[title='Total Recoveries']{
+    color: rgb(60, 255, 0);
+}
+
+.card[title='Total Recoveries']{
+    border-bottom: 10px solid rgb(60, 255, 0);
+}
+
+.text[title='Total Deaths']{
+    color: rgb(255, 94, 0);
+}
+
+.card[title='Total Deaths']{
+    border-bottom: 10px solid rgb(255, 94, 0);
+}

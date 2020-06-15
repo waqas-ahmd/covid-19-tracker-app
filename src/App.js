@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import React  from 'react';
 import './App.css';
+import SubApp from './SubApp';
+import { GlobalProvider } from './context/api';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="App" className="App">
+      <GlobalProvider>
+        <div>
+          <h2>COVID-19 LIVE STATISTICS</h2>
+        </div>
+        <SubApp/>
+      </GlobalProvider>
     </div>
   );
+  
 }
 
 export default App;

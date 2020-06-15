@@ -1,0 +1,70 @@
+.root{
+    margin: auto !important;
+    max-width: 500pt !important;
+    margin-top: 10pt !important;
+}
+.container{
+    height: 75vh !important;
+    box-shadow: 1px 1px #888888AA;
+    border-radius: 5pt;
+}  
+  
+.sortButton{
+    outline: none;
+    border: none;
+    background-color: rgba(204, 20, 20, 0);
+    font-weight: bold;
+    font-size: larger;
+    color: blue;
+}
+
+.cells[title="totalCases"]{
+    color: rgb(0, 25, 253) !important;
+}
+
+.cells[title="totalDeaths"]{
+    color: rgb(253, 30, 0) !important;
+}
+
+.cells[title="newCases"]{
+    color: rgb(0, 25, 253) !important;
+    font-weight: 600 !important;
+}
+.cells[title="newDeaths"]{
+    color: rgb(253, 30, 0) !important;
+    font-weight: 600 !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 3pt;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(190, 190, 190);
+    border-radius: 3pt;
+    border-top-left-radius: 0pt;
+    border-bottom-left-radius: 0pt;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3pt ;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+    width: 20pt;
+  }
+
+ th{
+      background-color: rgb(190, 190, 190) !important;
+  }
+  
+tr{
+    background-color: rgb(230, 230, 230) !important;
+
+}
