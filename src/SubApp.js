@@ -10,7 +10,7 @@ function SubApp() {
 
   return (
     <div>
-        <button className="switchBtn" onClick = {() => setPage(prevMode=> !prevMode) }>{page? "See Countries" : "See Global"}</button>
+        <button className="switchBtn" onClick = {() => setPage(prevMode=> !prevMode) }>{page? "See Countries Data" : "See Global Data"}</button>
         {!page? <CountriesTable/> : <div/>}
         {page? <GlobalData/> : <div/>}
         {page? <Chartjs/> : <div/>}
